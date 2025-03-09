@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import ProductList from "./pages/Productlist";
 import Cart from "./pages/Cart";
 import Contact from "./pages/contact";
+import Customer from "./pages/Customer";
 
 const App=()=>{
   return(
@@ -17,6 +18,7 @@ const App=()=>{
   <Route path="product" element={<ProductList/>}/>
   <Route path="cart" element={<Cart/>}/>
   <Route path="contact" element={<Contact/>}/>
+  <Route path="customer" element={<Customer/>}/>
 
   </Route>
 </Routes>

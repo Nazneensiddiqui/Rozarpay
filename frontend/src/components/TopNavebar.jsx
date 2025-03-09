@@ -26,7 +26,7 @@ const cartPage=()=>{
           <Nav className="me-auto" style={{marginLeft:"100px"}}>
             <Nav.Link as={Link} to="home">Home</Nav.Link>
             <Nav.Link as={Link} to="product">Product</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
+            <Nav.Link as={Link} to="customer">Customer Detail</Nav.Link>
             {/* //Cart length */}
            
 <div  style={{color:"white" , marginLeft:"500px"}}>

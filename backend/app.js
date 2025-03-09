@@ -19,9 +19,11 @@ app.use(bodyParser.json())
 
 
 const paymentRoute=require("./Routes/Payment");
+const CusRoute=require("./Routes/CustomerRoute");
 
 //payment Rezorpay
 app.use("/api/payment/",paymentRoute); 
+app.use("/customer",CusRoute)
 
 app.listen(port , ()=>{
     console.log(`server run on ${port}`)

@@ -20,7 +20,7 @@ try {
   setProducts(response.data.products)
   console.log(products)
 } catch (error) {
-  console.log(r=error)
+  console.log(error)
 }
 }
 
